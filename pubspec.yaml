@@ -1,0 +1,73 @@
+name: udhaaro
+description: "Offline-first Nepali Kirana Credit Tracker Application"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management & Local Storage
+  provider: ^6.1.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.2
+
+  # Image Selection
+  image_picker: ^1.1.2
+
+  # Nepali Date & Formatting
+  nepali_utils: ^3.0.7
+  nepali_date_picker: ^7.0.1
+
+  # PDF Generation & Printing/Sharing
+  pdf: ^3.10.7
+  printing: ^5.11.1
+  share_plus: ^7.2.2
+  file_picker: ^8.0.7
+
+  # Local Notifications & Permissions
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.2
+  permission_handler: ^11.3.0
+
+  # Utilities
+  intl: 0.20.2
+  uuid: ^4.3.3
+  shared_preferences: ^2.5.3
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.8
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/udhaaro_logo.png
+
+  fonts:
+    - family: NotoSansDevanagari
+      fonts:
+        - asset: assets/fonts/NotoSansDevanagari-Regular.ttf
+        - asset: assets/fonts/NotoSansDevanagari-Bold.ttf
+          weight: 700
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/udhaaro_logo.png"
+  min_sdk_android: 21
