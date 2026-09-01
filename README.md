@@ -29,6 +29,17 @@ Udhaaro is a Flutter-based Android application designed to help users manage gro
 ## Privacy
 
 Udhaaro is designed as an offline-first application. User records are stored locally on the device and are not dependent on an online server.
+## Screenshots
+
+### App Preview
+
+<p align="center">
+  <img src="screenshots/ss1.jpg" width="220"/>
+  <img src="screenshots/ss2.jpg" width="220"/>
+  <img src="screenshots/ss3.jpg" width="220"/>
+  <img src="screenshots/ss4.jpg" width="220"/>
+    <img src="screenshots/ss5.jpg" width="220"/>
+</p>
 
 ## Download
 
