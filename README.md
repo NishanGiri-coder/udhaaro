@@ -43,5 +43,9 @@ Udhaaro is designed as an offline-first application. User records are stored loc
 
 ## Download
 
-The latest Android APK will be available in the **Releases** section.
+Download and install the latest Android APK:
+
+**[Download Udhaaro v1.0.0](../../releases/latest)**
+
+> Android 8.0+ recommended.
 
